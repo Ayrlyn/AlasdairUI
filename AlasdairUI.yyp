@@ -26,6 +26,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controllers","folderPath":"folders/Objects/Controllers.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,10 +35,13 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"objDisplayController","path":"objects/objDisplayController/objDisplayController.yy",},},
+    {"id":{"name":"_rmDisplayManager","path":"rooms/_rmDisplayManager/_rmDisplayManager.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"_rmDisplayManager","path":"rooms/_rmDisplayManager/_rmDisplayManager.yy",},},
+    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
